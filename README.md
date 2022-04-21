@@ -3,19 +3,5 @@ Delovanje naprave --> Naprava se uporablja za namen merjenja svetilnosti. Poda n
 
 Uporabljeni material --> 9V baterija, Arduino Uno, OLED zaslon, photoresistor, 3x distančniki, 3x matice, 3x vijaki, ploščica za spajkanje,  upor 1000E, Žičke, printer kabel, kabel za povezavo z baterijo, 2x ploskev pleksi stekla.
 
-
-Slika vezja -->   
-
-
-PDF datoteka -->  
-
-
-Koda programa -->
-
-
-Videoposnetek -->    
-
-
-Komentar nad delovanjem -->
-
-
+   
+Komentar nad delovanjem --> Merska napaka naprave je od 1 do 50 LUX. Problem uporabe photoresistorja je, da ima zelo majhno maksimalno izmerjavo LUX-sov. Bolje bi bilo če bi uporabljali BH1750, zato da bi imel bolj natančne in večje zmogljivosti merjenja LUX. Za kalibracijo senzorja sva v kodi dodala odštetek -100 LUX, zato ker je drugače prevelika merska napaka.
